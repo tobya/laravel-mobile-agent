@@ -1,12 +1,12 @@
 Agent
 =====
 
-[![Latest Stable Version](http://img.shields.io/packagist/v/jenssegers/agent.svg)](https://packagist.org/packages/jenssegers/agent) [![Total Downloads](http://img.shields.io/packagist/dm/jenssegers/agent.svg)](https://packagist.org/packages/jenssegers/agent) [![Build Status](http://img.shields.io/travis/jenssegers/agent.svg)](https://travis-ci.org/jenssegers/agent) [![Coverage Status](http://img.shields.io/coveralls/jenssegers/agent.svg)](https://coveralls.io/r/jenssegers/agent) [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/jenssegers)
+[![Latest Stable Version](http://img.shields.io/packagist/v/Bogddan/agent.svg)](https://packagist.org/packages/Bogddan/agent) [![Total Downloads](http://img.shields.io/packagist/dm/Bogddan/agent.svg)](https://packagist.org/packages/Bogddan/agent) [![Build Status](http://img.shields.io/travis/Bogddan/agent.svg)](https://travis-ci.org/Bogddan/agent) [![Coverage Status](http://img.shields.io/coveralls/Bogddan/agent.svg)](https://coveralls.io/r/Bogddan/agent) [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/Bogddan)
 
 A PHP desktop/mobile user agent parser with support for Laravel, based on [Mobile Detect](https://github.com/serbanghita/Mobile-Detect) with desktop support and additional functionality.
 
 <p align="center">
-<img src="https://jenssegers.com/static/media/agent.png" height="275">
+<img src="https://Bogddan.com/static/media/agent.png" height="275">
 </p>
 
 Installation
@@ -15,7 +15,7 @@ Installation
 Install using composer:
 
 ```bash
-composer require jenssegers/agent
+composer require Bogddan/agent
 ```
 
 Laravel (optional)
@@ -24,13 +24,13 @@ Laravel (optional)
 Add the service provider in `config/app.php`:
 
 ```php
-Jenssegers\Agent\AgentServiceProvider::class,
+Bogddan\Agent\AgentServiceProvider::class,
 ```
 
 And add the Agent alias to `config/app.php`:
 
 ```php
-'Agent' => Jenssegers\Agent\Facades\Agent::class,
+'Agent' => Bogddan\Agent\Facades\Agent::class,
 ```
 
 Basic Usage
@@ -39,7 +39,7 @@ Basic Usage
 Start by creating an `Agent` instance (or use the `Agent` Facade if you are using Laravel):
 
 ```php
-use Jenssegers\Agent\Agent;
+use Bogddan\Agent\Agent;
 
 $agent = new Agent();
 ```
