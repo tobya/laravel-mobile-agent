@@ -75,7 +75,7 @@ class Agent extends MobileDetect
     /**
      *
      */
-    protected static CrawlerDetect $crawlerDetect;
+    protected static $crawlerDetect;
 
     /**
      * Get all detection rules. These rules include the additional
